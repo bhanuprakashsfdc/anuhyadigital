@@ -1,5 +1,6 @@
 import React from 'react'
 import './Contact.css'
+import '../../index.css'
 import msg_icon from '../../assets/msg-icon.png'
 import mail_icon from '../../assets/mail-icon.png'
 import phone_icon from '../../assets/phone-icon.png'
@@ -39,10 +40,14 @@ const Contact = () => {
         <h3>Send us message <img src={msg_icon} alt="" /> </h3>
         <p> Feel free to reach out us if you have any queries</p>
         <ul>
-            <li> <img src={phone_icon} alt="" /> 08886722203</li>
+            <li> <img src={phone_icon} alt="" /><a href="tel:+918861789164">+91-8861789164</a></li>
+            <li> 
+              <img src={mail_icon} alt="" />
+              <a href="mailto:hello@anuhyadigital.com">hello@anuhyadigital.com</a> <br/>
+              <a href="mailto:careers@anuhyadigital.com">careers@anuhyadigital.com</a>
+            </li>
             <li> Our Branches at </li>
-            <li> <img src={location_icon} alt="" /> #130, Theerthakatta St, Tirumala, Tirupati, Andhra Pradesh 517501</li>
-            <li> <img src={location_icon} alt="" /> 18-2-268/13, Abbanna Colony Rd, opp. Tv9 Office, 2nd lane, Korlagunta, Tirupati, Andhra Pradesh 517501</li>
+            <li> <img src={location_icon} alt="" /> Flat No 401, Sri Pradha Hills, <br/> Back Side of Reddy Bhavan, <br/> Thimmanaidupalem, <br/> Tirupati, AP - 517501</li>
         </ul>
       </div>
       <div className="contact-col">

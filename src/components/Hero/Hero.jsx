@@ -1,20 +1,18 @@
 import React from 'react'
 import './Hero.css'
+import '../../index.css'
 import dark_arrow from '../../assets/arrow.png'
 
-const Hero = () => {
+const Hero = ({ title, subtitle1, subtitle2, buttonText, buttonLink }) => {
   return (
     <div className='hero container'>
       <div className="hero-text">
-        <h1> Expert Dental Care in Tirupathi – Avasa Dental Clinic</h1>
-        <p> 
-          At Avasa Dental Clinic in Tirupathi, our state-of-the-art dental services are meticulously designed to provide patients with the expertise, treatments, and care necessary to maintain perfect oral health. 
-        </p>
-        <p>
-          We empower our patients with comprehensive dental knowledge, innovative techniques, and personalized care plans essential for achieving and sustaining optimal dental wellness. Experience the future of dental care today and ensure your smile is both beautiful and healthy.
-        </p>
-        <button className='btn'>Book Your Appointment Today! <img src={dark_arrow} alt=""/>
-        </button>
+        <h1>{title}</h1>
+        <p>{subtitle1}</p>
+        <p>{subtitle2}</p>
+        <a href="tel:+918861789164" className='btn'>
+          {buttonText} <img src={dark_arrow} alt=""/>
+        </a>
       </div>
     </div>
   )

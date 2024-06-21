@@ -1,8 +1,8 @@
 .h3text{
-    color: black;
+    color:var(--text-color);
 }
 .about {
-    color: #000000;
+    color:var(--text-color);
     margin: 100px auto;
     display: flex;
     align-items: center;
@@ -16,14 +16,14 @@
 .about-right{
     flex-basis: 56%;
     margin-left: 20px;
-    color: #000000;
+    color:var(--text-color);
 }
 .about-img{
     width: 100%;
     border-radius: 10px;
 }
 .about-right p{
-    color: #000000;
+    color:var(--text-color);
 }
 .play-icon{
     width: 60px;
@@ -36,16 +36,16 @@
 .about h3 {
     font-weight: 600;
     font-weight: 16px;
-    color: #ffff;
+    color:var(--text-color);
 }
 .about h2 {
     font-size: 35px;
-    color: #ffff;
+    color:var(--text-color);
     margin: 10px 0;
     max-width: 400px;
 }
 .about p{
-    columns: #ffff;
+    color:var(--text-color);
     margin-bottom: 15px;
 }
 /* -- Media Queries -- */

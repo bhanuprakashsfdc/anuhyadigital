@@ -1,4 +1,5 @@
 import React, {useState}  from 'react'
+import { Helmet } from 'react-helmet';
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
 import Programs from './components/Programs/Programs'
@@ -11,36 +12,49 @@ import Footer from './components/Footer/Footer'
 import VideoPlayer from './components/VideoPlayer/VideoPlayer'
 import Services from './components/Services/Services'
 import Map from './components/Map/Map'
-
+import Mininavbar from './components/Mininavbar/Mininavbar'
+import './index.css'
+import Clients from './components/Clients/Clients'
 const App = () => {
 
   const [playState, setPlayState] = useState(false);
 
   return (
     <div>
+      <Helmet>
+        <title>Anuhya Digital</title>
+        <meta name="description" content="Anuhya Digital we are providing salesforce consulting services" />
+        <meta name="keywords" content="Salesforce, web design, web development" />
+      </Helmet>
       <Navbar/>
-      <Hero/>
+      <Hero 
+        title="We offer Salesforce solutions for growing your business"
+        subtitle1="We are a team of talented Salesforce Consultants building optimized solutions."
+        subtitle2="We empower our clients with comprehensive Salesforce knowledge, innovative solutions, and personalized strategies essential for achieving and sustaining optimal business success. Experience the future of Salesforce consulting today and ensure your business is both efficient and thriving."
+        buttonText="Book Your Appointment Today!"
+        buttonLink="#"
+      />
       <div className="container">
-       <Title subtitle='At Avasa Dental Clinic, we specialize in a wide array of dental services to enhance your smile and improve your oral health. 
-                        From dental implants that provide a permanent solution for missing teeth, to veneers and crowns designed to restore and 
-                        beautify your natural smile, our expert team is equipped to handle all your dental needs.'
-
-              subtitle2='We offer advanced smile correction procedures to align and brighten your smile, alongside professional teeth whitening 
-                        services to ensure your smile is as radiant as it is healthy. For those seeking comprehensive treatment, our root canal 
-                        therapies are performed with the utmost care and precision, while our clear aligners offer a discreet alternative to 
-                        traditional braces. We also provide custom-fitted dentures, crafted to provide comfort and a natural appearance. 
-                        Trust Avasa Dental Clinic for all your dental needs—where your health meets our expertise.' 
-        title='What we Offer'/>
-       <Programs />
-       <Services />
        <About setPlayState={setPlayState}/>
+       <Title subtitle='As a Salesforce consulting company, we are committed to upholding a set of core values that guide our actions and decisions every day. We believe that by staying true to these values, we can provide the best possible service to our clients and make a positive impact in our communities.'
+              title='Our Values'/>
+       <Programs />
        <Title subtitle='Gallery' title='Our services'/>
-       <Campus />
+       <Services />
+       {
+        /* <Title subtitle='' title='Our Portfolio'/>
+            <Campus />
+        */
+       }
+
+       <Title subtitle='Clients' title='Our Clients'/>
+       <Clients />
        <Title subtitle='Testimonials' title='What Clients Says'/>
        <Testimonials/>
        <Title subtitle='Contact Us' title='Get in Touch'/>
        <Contact/>
        <Map />
+       <Mininavbar />
        <Footer/>
       </div>
       <VideoPlayer playState={playState} setPlayState={setPlayState}/> 
