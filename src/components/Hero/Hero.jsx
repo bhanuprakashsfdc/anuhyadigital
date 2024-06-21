@@ -10,7 +10,7 @@ const Hero = ({ title, subtitle1, subtitle2, buttonText, buttonLink }) => {
         <h1>{title}</h1>
         <p>{subtitle1}</p>
         <p>{subtitle2}</p>
-        <a href={buttonLink} className='btn'>
+        <a href="tel:+918861789164" className='btn'>
           {buttonText} <img src={dark_arrow} alt=""/>
         </a>
       </div>

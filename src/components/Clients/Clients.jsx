@@ -8,6 +8,8 @@ import arun from '../../assets/clients/aarun.png'
 import sfdemo from '../../assets/clients/asfdemo.png'
 import gs7 from '../../assets/clients/ags7.png'
 import jb from '../../assets/clients/ajb.png'
+import ajk from '../../assets/clients/ajk.png'
+import asgic from '../../assets/clients/asgic.png'
 
 const Clients = () => {
   const slider = useRef();
@@ -59,30 +61,14 @@ const Clients = () => {
           </li>
           <li>
             <div className="cslide">
-                <img src={janu} alt="" />
+                <img src={ajk} alt="" />
             </div>
           </li>
           <li>
             <div className="cslide">
-                <img src={janu} alt="" />
+                <img src={asgic} alt="" />
             </div>
           </li>
-          <li>
-            <div className="cslide">
-                <img src={janu} alt="" />
-            </div>
-          </li>
-          <li>
-            <div className="cslide">
-                <img src={janu} alt="" />
-            </div>
-          </li>
-          <li>
-            <div className="cslide">
-                <img src={janu} alt="" />
-            </div>
-          </li>
-
         </ul>
       </div>
     </div>
