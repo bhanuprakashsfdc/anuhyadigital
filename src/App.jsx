@@ -11,6 +11,7 @@ import Footer from './components/Footer/Footer'
 import VideoPlayer from './components/VideoPlayer/VideoPlayer'
 import Services from './components/Services/Services'
 import Map from './components/Map/Map'
+import Mininavbar from './components/Mininavbar/Mininavbar'
 
 const App = () => {
 
@@ -41,6 +42,7 @@ const App = () => {
        <Title subtitle='Contact Us' title='Get in Touch'/>
        <Contact/>
        <Map />
+       <Mininavbar />
        <Footer/>
       </div>
       <VideoPlayer playState={playState} setPlayState={setPlayState}/> 

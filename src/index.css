@@ -7,10 +7,14 @@
     box-sizing: border-box;
     font-family: "Outfit", sans-serif;
     color: white;
+    --primary-color: #5D46FD;
+    --secondary-color: #FE6F3D;
+    --background-color: #01060e;
+    --text-color: #ede7e7;
 }
 body{
-    background-color: #E1F8FA;
-    color: white;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 a{
     text-decoration: none;

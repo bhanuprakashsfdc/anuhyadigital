@@ -1,5 +1,5 @@
 .footer{
-    color:black;
+    color:var(--text-color);
     margin: 10px auto;
     display: flex;
     align-items: center;
@@ -11,10 +11,10 @@
     list-style: none;
     display: inline-block;
     margin-left: 20px;
-    color:black;
+    color:var(--text-color);
 }
 .footer p {
-    color:black;  
+    color:var(--text-color); 
 }
 /* -- Media Queries -- */
 @media (max-width: 840px) {
