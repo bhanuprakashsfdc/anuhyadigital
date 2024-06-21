@@ -1,5 +1,5 @@
 .Map{
-    color: black;
+    color: var(--background-color);
     margin: 80px auto;
     max-width: 90%;
     display: flex;

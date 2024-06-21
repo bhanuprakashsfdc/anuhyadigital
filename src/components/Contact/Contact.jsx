@@ -1,5 +1,6 @@
 import React from 'react'
 import './Contact.css'
+import '../../index.css'
 import msg_icon from '../../assets/msg-icon.png'
 import mail_icon from '../../assets/mail-icon.png'
 import phone_icon from '../../assets/phone-icon.png'
@@ -40,6 +41,7 @@ const Contact = () => {
         <p> Feel free to reach out us if you have any queries</p>
         <ul>
             <li> <img src={phone_icon} alt="" />+91-8861789164</li>
+            <li> <img src={mail_icon} alt="" />hello@anuhyadigital.com <br/> careers@anuhyadigital.com</li>
             <li> Our Branches at </li>
             <li> <img src={location_icon} alt="" /> Flat No 401, Sri Pradha Hills, <br/> Back Side of Reddy Bhavan, <br/> Thimmanaidupalem, <br/> Tirupati, AP - 517501</li>
         </ul>

@@ -4,6 +4,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    text-align: justify;
+}
+.services1{
+    margin: 180px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: justify;
 }
 .service img{
     width: 100%;
@@ -27,10 +36,10 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: #fff;
+    color: var(--text-color);
     cursor: pointer;
-    opacity: 0;
-    padding-top: 70%;
+    opacity: 1;
+    padding-top: 0%;
     transition: 0.4s;
 }
 .caption img{

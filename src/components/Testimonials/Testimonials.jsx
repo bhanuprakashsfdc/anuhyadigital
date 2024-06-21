@@ -35,12 +35,12 @@ const Testimonials = () => {
               <div className="user-info">
                 <img src={user_1} alt="" />
                 <div>
-                  <h3> Fayaz</h3>
-                  <span> Tirupati, India</span>
+                  <h3> Sarah Thompson</h3>
+                  <span> San Francisco, CA</span>
                 </div>
               </div>
               <p>
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
+              Anuhya Digital's Salesforce consulting services have been a game-changer for our business. Their team helped us streamline our processes and maximize our Salesforce investment. We saw a significant improvement in our sales operations and customer management. Their expertise and dedication to client success are truly commendable.
               </p>
             </div>
           </li>
@@ -49,12 +49,12 @@ const Testimonials = () => {
               <div className="user-info">
                 <img src={user_2} alt="" />
                 <div>
-                  <h3> Kiran</h3>
-                  <span> Puttur, India </span>
+                  <h3> Michael Rodriguez</h3>
+                  <span> Austin, TX </span>
                 </div>
               </div>
               <p>
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
+              I am extremely impressed with the web design services provided by Anuhya Digital. They transformed our outdated website into a modern, user-friendly platform that has greatly enhanced our online presence. The team's creativity and attention to detail exceeded our expectations. We have received numerous compliments from our clients about our new website.
               </p>
             </div>
           </li>
@@ -63,12 +63,12 @@ const Testimonials = () => {
               <div className="user-info">
                 <img src={user_3} alt="" />
                 <div>
-                  <h3> William Jackson 3</h3>
-                  <span> Edusity,USA</span>
+                  <h3> Emily Nguyen</h3>
+                  <span> Seattle, WA</span>
                 </div>
               </div>
               <p>
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
+              Anuhya Digital's SEO services have helped our business achieve top rankings on search engines. Their comprehensive approach and in-depth keyword research have significantly increased our online visibility and organic traffic. We are now reaching a larger audience and generating more leads than ever before. I highly recommend their SEO expertise.
               </p>
             </div>
           </li>
@@ -77,12 +77,12 @@ const Testimonials = () => {
               <div className="user-info">
                 <img src={user_4} alt="" />
                 <div>
-                  <h3> William Jackson 4</h3>
-                  <span> Edusity,USA</span>
+                  <h3> David Patel</h3>
+                  <span> New York, NY</span>
                 </div>
               </div>
               <p>
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
+              Thanks to Anuhya Digital's Google Map Optimization services, our local business has seen a tremendous boost in foot traffic and online inquiries. They optimized our Google My Business listing and ensured our business appears prominently in local searches. Their efforts have made it easier for customers to find us, and we've seen a noticeable increase in sales as a result.
               </p>
             </div>
           </li>
