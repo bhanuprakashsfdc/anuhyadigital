@@ -1,0 +1,22 @@
+/* Ensure the page container takes full height */
+.page-container {
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Make sure content wrap grows to fill space between header and footer */
+  .content-wrap {
+    flex: 1;
+  }
+  
+  .containerview {
+    padding: 20vh 20%;
+  }
+  
+  /* Footer stays at the bottom of the page */
+  .footervalue {
+    margin-top: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
