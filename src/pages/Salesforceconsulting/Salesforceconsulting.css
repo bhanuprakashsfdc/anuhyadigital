@@ -10,7 +10,7 @@
   }
   
   .containerview {
-    padding: 20vh 20%;
+    padding: 20vh 10%;
   }
   
   /* Footer stays at the bottom of the page */
@@ -19,4 +19,17 @@
     padding-left: 10%;
     padding-right: 10%;
   }
+
+  /* -- Media Queries -- */
+@media (max-width: 800px) {
+  .containerview {
+    padding: 20vh 0%;
+ }
+}
+
+@media (max-width: 600px) {
+  .containerview {
+    padding: 20vh 0%;
+  }
+}
   

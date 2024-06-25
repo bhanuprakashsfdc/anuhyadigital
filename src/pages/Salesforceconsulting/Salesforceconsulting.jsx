@@ -1,13 +1,14 @@
 import React from 'react';
 import '../../index.css';
-import Navbar from '../../components/Navbar/Navbar';
+import Navbarpage from '../../components/Navbarpage/Navbarpage';
 import Footer from '../../components/Footer/Footer';
 import './Salesforceconsulting.css';
+
 
 function Salesforceconsulting() {
   return (
     <div className="page-container">
-      <Navbar />
+      <Navbarpage />
       <div className="content-wrap">
         <div className="containerview">
           <h1>Salesforce Consulting Services</h1>
