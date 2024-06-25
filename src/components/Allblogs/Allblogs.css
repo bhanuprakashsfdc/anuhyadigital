@@ -1,0 +1,117 @@
+.allblog-container {
+    position: relative;
+    text-align: left;
+  }
+  
+  .allposts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .allpost {
+    width: calc(32% - 20px);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .allpost-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .allpost-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .allpost h2 {
+    font-size: 1.2em;
+    margin-top: 0;
+  }
+  
+  .allpost-excerpt {
+    flex-grow: 1;
+  }
+  
+  .allpost a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    margin-top: 10px;
+    align-self: flex-start;
+  }
+  
+  .allpost-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+  }
+
+  .spinner {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin: 100px auto;
+  }
+  
+  .double-bounce1, .double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: bounce 2.0s infinite ease-in-out;
+  }
+  
+  .double-bounce2 {
+    animation-delay: -1.0s;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: scale(0.0);
+    } 50% {
+      transform: scale(1.0);
+    }
+  }
+  
+  .footervalue {
+    margin-top: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+    /* -- Media Queries -- */
+@media (max-width: 800px) {
+    .containerview {
+      padding: 20vh 0%;
+   }
+   .allpost {
+    width: 100%;
+   }
+  }
+  
+  @media (max-width: 600px) {
+    .containerview {
+      padding: 20vh 0%;
+    }
+    .allpost {
+      width: 100%;
+     }
+  }

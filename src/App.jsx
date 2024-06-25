@@ -15,6 +15,7 @@ import Map from './components/Map/Map'
 import Mininavbar from './components/Mininavbar/Mininavbar'
 import './index.css'
 import Clients from './components/Clients/Clients'
+import Blogs from './components/Blogs/Blogs';
 const App = () => {
 
   const [playState, setPlayState] = useState(false);
@@ -51,6 +52,8 @@ const App = () => {
        <Clients />
        <Title subtitle='Testimonials' title='What Clients Says'/>
        <Testimonials/>
+       <Title subtitle='Blogs' title='What Our Team Says'/>
+       <Blogs />
        <Title subtitle='Contact Us' title='Get in Touch'/>
        <Contact/>
        <Map />

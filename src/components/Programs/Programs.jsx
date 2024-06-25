@@ -3,12 +3,6 @@ import './Programs.css'
 import strategy from '../../assets/programs/strategy.png'
 import design from '../../assets/programs/design.png'
 import launch from '../../assets/programs/launch.png'
-import program_1 from '../../assets/img/1.png'
-import program_2 from '../../assets/img/5.png'
-import program_3 from '../../assets/img/5.png'
-import program_icon_1 from '../../assets/program-icon-1.png'
-import program_icon_2 from '../../assets/program-icon-2.png'
-import program_icon_3 from '../../assets/program-icon-3.png'
 
 const Programs = () => {
   return (
