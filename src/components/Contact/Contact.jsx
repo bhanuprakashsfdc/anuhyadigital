@@ -42,9 +42,10 @@ const Contact = () => {
         <ul>
             <li> <img src={phone_icon} alt="" /><a href="tel:+918861789164">+91-8861789164</a></li>
             <li> 
-              <img src={mail_icon} alt="" />
-              <a href="mailto:hello@anuhyadigital.com">hello@anuhyadigital.com</a> <br/>
-              <a href="mailto:careers@anuhyadigital.com">careers@anuhyadigital.com</a>
+              <img src={mail_icon} alt="" /> <a href="mailto:hello@anuhyadigital.com">hello@anuhyadigital.com</a> 
+            </li>
+            <li>
+              <img src={mail_icon} alt="" /> <a href="mailto:careers@anuhyadigital.com">careers@anuhyadigital.com</a>
             </li>
             <li> Our Branches at </li>
             <li> <img src={location_icon} alt="" /> Flat No 401, Sri Pradha Hills, <br/> Back Side of Reddy Bhavan, <br/> Thimmanaidupalem, <br/> Tirupati, AP - 517501</li>

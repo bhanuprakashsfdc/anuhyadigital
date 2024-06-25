@@ -70,9 +70,14 @@
     .next-btn, .back-btn{
         padding: 10px;
         width: 35px;
+        transform: translateY(-100%);
     }
     .slide{
-        padding: 10px;
+        width: 30vh;
+    }
+    .slide ul {
+        width: 30vh;
+        transform: translateY(-50%) !important;
     }
     .slide img{
         width: 50px;
@@ -90,5 +95,14 @@
     }
     .slider p{
         font-size: 12px;
+    }
+    .slide ul {
+        width: 30vh;
+        transform: translateY(-50%) !important;
+    }
+    .next-btn, .back-btn{
+        padding: 10px;
+        width: 35px;
+        transform: translateY(-100%);
     }
 }
