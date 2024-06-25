@@ -54,7 +54,6 @@ const App = () => {
        <Title subtitle='Contact Us' title='Get in Touch'/>
        <Contact/>
        <Map />
-       <Mininavbar />
        <Footer/>
       </div>
       <VideoPlayer playState={playState} setPlayState={setPlayState}/> 

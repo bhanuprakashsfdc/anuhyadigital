@@ -1,62 +1,68 @@
-.services{
-    margin: 80px auto;
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-align: justify;
-}
-.services1{
-    margin: 180px auto;
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-align: justify;
-}
-.service img{
-    width: 100%;
-    border-radius: 10px;
-    display: block;
-}
-.service{
-    flex-basis: 31%;
-    position: relative;
-}
-
-.caption{
-    border-radius: 10px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: rgba(0, 15, 152, 0.3);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: var(--text-color);
-    cursor: pointer;
-    opacity: 1;
-    padding-top: 0%;
-    transition: 0.4s;
-}
-.caption img{
-    width: 60px;
-    margin-bottom: 10px;
-}
-.service:hover .caption{
-    opacity: 1;
-    padding-top: 0;
-}
-/* -- Media Queries -- */
-@media (max-width: 650px) {
-    .services{
+  
+  .ptext{
+      color: var(--text-color);
+  }
+  /* Services CSS */
+  .services, .services1 {
+      margin: 80px auto;
+      width: 90%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-align: justify;
+    }
+    
+    .service {
+      flex-basis: 31%;
+      position: relative;
+      margin-bottom: 20px;
+    }
+    
+    .caption {
+      border-radius: 10px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background: rgba(0, 15, 152, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: var(--text-color);
+      cursor: pointer;
+      padding: 20px;
+      transition: opacity 0.4s;
+    }
+    
+    .caption img {
+      width: 60px;
+      margin-bottom: 10px;
+    }
+    .caption p{
+        color: var(--text-color);
+    }
+    
+    .service:hover .caption {
+      opacity: 1; 
+    }
+    
+    .service img {
+      width: 100%;
+      border-radius: 10px;
+      display: block;
+    }
+    
+    /* Media Queries */
+    @media (max-width: 650px) {
+      .services, .services1 {
         flex-direction: column;
-    }
-    .service{
+      }
+    
+      .service {
         flex-basis: 100%;
-        margin: 20px;
+        margin: 20px 0;
+      }
     }
-}
+    
