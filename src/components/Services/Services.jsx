@@ -1,20 +1,21 @@
-import React from 'react'
-import './Services.css'
-import program_1 from '../../assets/program-1.png'
-import program_2 from '../../assets/program-2.png'
-import program_3 from '../../assets/program-3.png'
-import program_icon_1 from '../../assets/program-icon-1.png'
-import program_icon_2 from '../../assets/program-icon-2.png'
-import program_icon_3 from '../../assets/program-icon-3.png'
+import React from 'react';
+import './Services.css';
+import '../../index.css'
+import program_1 from '../../assets/program-1.png';
+import program_2 from '../../assets/program-2.png';
+import program_3 from '../../assets/program-3.png';
+import program_icon_1 from '../../assets/program-icon-1.png';
+import program_icon_2 from '../../assets/program-icon-2.png';
+import program_icon_3 from '../../assets/program-icon-3.png';
 
 const Services = () => {
   return (
-    <div>
+    <div className='servicesview'>
       <div className='services'>
         <div className='service'>
-          <div className="caption">
-              <h2> Salesforce Consulting</h2>
-              <p>
+          <div className='caption'>
+              <h2>Salesforce Consulting</h2>
+              <p className='ptext'>
                 Our Salesforce Consulting services help businesses leverage the full potential of Salesforce to streamline 
                 operations, improve customer relationships, and drive growth. From initial setup to advanced customization, 
                 we provide comprehensive support tailored to your needs.
@@ -70,8 +71,7 @@ const Services = () => {
         </div>
       </div>
     </div>
+  );
+};
 
-  )
-}
-
-export default Services
+export default Services;

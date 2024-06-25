@@ -1,10 +1,12 @@
-.clients{
+/* Clients CSS */
+.clients {
     margin: 80px auto;
     padding: 0 80px;
     position: relative;
-    color:var(--text-color);
-}
-.next-btn, .back-btn{
+    color: var(--text-color);
+  }
+  
+  .next-btn, .back-btn {
     position: absolute;
     top: 50%;
     right: 0;
@@ -14,57 +16,86 @@
     border-radius: 50%;
     cursor: pointer;
     background: var(--secondary-color);
-}
-
-.back-btn{
+  }
+  
+  .back-btn {
     right: auto;
     left: 0;
-}
-.cslider{
-   overflow: hidden;
-}
-.cslider ul{
+  }
+  
+  .cslider {
+    overflow: hidden;
+  }
+  
+  .cslider ul {
     display: flex;
     width: 200%;
-    overflow-x: hidden;
-    transition: 0.5s;
-   /* transform: translateX(-25%); */
-}
-.cslider ul li {
+    transition: transform 0.5s ease;
+  }
+  
+  .cslider ul li {
     list-style: none;
-    width: 17%;
+    width: 25%;
     padding: 20px;
-}
-.cslide{
-    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+  }
+  
+  .cslide {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     padding: 20px;
     border-radius: 10px;
     color: #ffff;
     line-height: 1.4;
     background-color: var(--text-color);
-}
-.cslide img{
-
-}
-/* -- Media Queries -- */
-@media (max-width: 800px) {
-    .testimonials{
-        padding: 0 40px;
+  }
+  
+  .cslide img {
+    width: 100%;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 800px) {
+    .clients {
+      padding: 0 40px;
     }
-    .testimonials ul li{
-        padding: 10px;
+  
+    .next-btn, .back-btn {
+      padding: 10px;
+      width: 35px;
     }
-    .next-btn, .back-btn{
-        padding: 10px;
-        width: 35px;
+  
+    .cslide {
+      padding: 10px;
     }
-    .cslide{
-        padding: 10px;
+  
+    .cslider ul {
+      width: 200%;
     }
-    .cslide img{
-        width: 50px;
-        border: 3px solid #212EA0;
+  
+    .cslider ul li {
+      width: 50%;
     }
-}
-@media (max-width: 600px) {
-}
+  }
+  
+  @media (max-width: 600px) {
+    .clients {
+      padding: 0 20px;
+    }
+  
+    .next-btn, .back-btn {
+      padding: 8px;
+      width: 30px;
+    }
+  
+    .cslide {
+      padding: 5px;
+    }
+  
+    .cslider ul {
+      width: 400%;
+    }
+  
+    .cslider ul li {
+      width: 100%;
+    }
+  }
+  
