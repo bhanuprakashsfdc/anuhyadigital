@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://www.anuhyadigital.com</loc>
+		<priority>1.00</priority>
+		<lastmod>2024-07-01</lastmod>
+	</url>
+	<url>
+		<loc>https://www.anuhyadigital.com/about-us</loc>
+		<priority>0.20</priority>
+		<lastmod>2024-06-20</lastmod>
+	</url>
+	<url>
+		<loc>https://www.anuhyadigital.com/services</loc>
+		<priority>0.20</priority>
+		<lastmod>2024-06-20</lastmod>
+	</url>
+	<url>
+		<loc>https://www.anuhyadigital.com/testimonials</loc>
+		<priority>0.20</priority>
+		<lastmod>2024-06-20</lastmod>
+	</url>
+	<url>
+		<loc>https://www.anuhyadigital.com/blogs</loc>
+		<priority>0.20</priority>
+		<lastmod>2024-06-20</lastmod>
+	</url>
+	<url>
+		<loc>https://www.anuhyadigital.com/contact-us</loc>
+		<priority>0.20</priority>
+		<lastmod>2024-06-20</lastmod>
+	</url>
+	<url>
+		<loc>https://www.anuhyadigital.com/salesforce-consulting</loc>
+		<priority>0.20</priority>
+		<lastmod>2024-06-20</lastmod>
+	</url>
+	
+
+</urlset>
