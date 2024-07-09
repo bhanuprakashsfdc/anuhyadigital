@@ -54,6 +54,9 @@ a{
     background-color: var(--primary-color);
     color: var(--text-color);
 }
+.city-service{
+    padding: 5%;
+}
 
 /* -- Media Queries -- */
 @media (max-width:1200px) {
